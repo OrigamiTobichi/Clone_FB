@@ -533,7 +533,7 @@ img{
                         margin-right: 1.8rem;
                         position: relative;
                         &-image{
-                            @include size(30px);
+                            @include size(25px);
                         }
                         &-friend{
                             @include size(40px);
