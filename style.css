@@ -1335,7 +1335,7 @@ img {
   right: 0;
   top: 50px;
   width: 22%;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 .main__container-recommend::-webkit-scrollbar {
   width: 8px;
@@ -1373,6 +1373,7 @@ img {
   flex-wrap: nowrap;
   border-radius: 1rem;
   transition: all 0.1s linear;
+  cursor: pointer;
 }
 .main__container-recommend-list-item:hover .main__container-recommend-list-adversiting-icon {
   visibility: visible;

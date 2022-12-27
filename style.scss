@@ -1160,8 +1160,8 @@ img{
             height: calc(100vh - 52px);
             right: 0;
             top: 50px;
-            width: 22%;
-            overflow-y: hidden;
+            width: 22%;  
+            overflow-y: auto;
             &::-webkit-scrollbar{
                 width: 8px;
                 border-radius: 3rem;
@@ -1189,6 +1189,7 @@ img{
                     @include flexbox(center,center);
                     border-radius: 1rem;
                     transition: all 0.1s linear;
+                    cursor: pointer;
                     &:hover{
                         .main__container-recommend-list-adversiting-icon{
                             visibility: visible;
@@ -1329,3 +1330,12 @@ img{
         border-radius: 50%;
     }
 }
+// &::-webkit-scrollbar{
+//     width: 8px;
+//     border-radius: 3rem;
+//     background-color: #232526;
+// }
+// &::-webkit-scrollbar-thumb{
+//     background-color: #5e5e5f;
+//     border-radius: 3rem;
+// }
